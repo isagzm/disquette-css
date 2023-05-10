@@ -1,0 +1,82 @@
+body {
+  background-image: url("https://img.freepik.com/fotos-premium/escritorio-oficina-espacio-trabajo-fondo-mesa_31965-2305.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.floppy-disk {
+  margin: auto;
+  background-image: url("https://t4.ftcdn.net/jpg/04/43/38/81/360_F_443388198_3gK6JIpBTOuiLHG821o9TSbqZDtkV4X5.jpg");
+  background-color: #fff;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30vw;
+  height: 30vw;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-flow: column wrap;
+  border-radius: 10px;
+}
+
+.disk-up {
+  border: 1px solid rgb(59 59 59);
+  background-color: rgb(24 24 24);
+  width: 22vw;
+  height: 10vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.metallic-tag {
+  background-image: url("https://www.todofondos.net/wp-content/uploads/metallic-texture-wallpaper-768x537.jpg");
+  background-color: rgb(105 105 105);
+  background-blend-mode: hard-light;
+  width: 18vw;
+  height: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.window {
+  background-color: rgb(24 24 24);
+  width: 4vw;
+  height: 7vw;
+  translate: -20px;
+}
+
+.disk-down {
+  background-image: url("https://images.photowall.com/products/64222/paper-texture.jpg?h=699");
+  background-color: #fff;
+  background-blend-mode: multiply;
+  width: 22vw;
+  height: 15vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-flow: column wrap;
+}
+
+.line {
+  background-color: #000;
+  margin-top: 1vw;
+  width: 100%;
+  height: 0.15vw;
+}
